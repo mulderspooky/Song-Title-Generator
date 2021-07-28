@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="cahetel" <title>My First Generator</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    body #cdawrap {
+        border: 1px solid #000;
+        --cda-bottom: auto;
+        --cda-right: 3.5rem;
+        --cda-left: auto;
+        --cda-text-align: right;
+        --cda-width: 370px;
+        border-radius: 6px;
+        padding: 0.75rem 1rem 1rem;
+        --footer-align: end;
+        --cda-text-size: 0.875rem;
+        --cda-footer-fontsize: 0.785rem;
+        --cda-text-color: #000;
+        position: absolute;
+        transform: translateY(-150%);
+    }
+
+    @media screen and (max-width: 800px) {
+        body #cdawrap {
+            transform: none;
+            border-radius: 0px;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Song Title Generator</h1>
+    </header>
+
+   
+
+    
+<div class="result-container">
+    <span id="result"></span>
+    <button class="btn" id="clipboard">
+        <i class="far fa-clipboard"></i>
+    </button>
+</div>
+
+    <div class="container">
+        <section>
+            <li class="content__item">
+					<button class="button button--pandora"><span>Generate</span></button>
+				</li>
+
+
+                
+        </section>
+
+        <aside>
+            
+        </aside>
+
+        
+    </div>
+    <div class="octagon">
+    
+        <div class="row-one">
+            <div class="block-one"></div>
+            <div class="block-two"></div>
+            <div class="block-three"></div>
+        </div>
+    
+        <div class="row-two">
+            <div class="block-one"></div>
+            <div class="block-two"></div>
+            <div class="block-three"></div>
+        </div>
+    
+        <div class="row-three">
+            <div class="block-one"></div>
+            <div class="block-two"></div>
+            <div class="block-three"></div>
+        </div>
+    
+    </div>
+    <footer>
+        <p>We hope this track name generator will give you good names for your music</p>
+    </footer>
+</body>
+
+</html>
