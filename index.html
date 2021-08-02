@@ -9,35 +9,11 @@
 
 <script>
     function myFunction() {
-        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br> We are happy that you've chosen our website to learn programming languages. We're sure you'll become one of the best programmers in your country. Good luck to you!";
+        yourArray = ["The Lost Story", "I Found My Feelings", "Justice Project", "I'm Tired Of June", "Good Friends Are Angels On Earth", "Consuming Fire", "Invisible Matter", "Creative Vision", "Friends I Used To Know", "Love Shy", "Barely Breathing", "Free Midnight"];
+        document.getElementById("demo").innerHTML = "<p>" + yourArray[Math.floor(Math.random() * yourArray.length)] + "</p>";
     }
 </script>
-
-<style>
-    body #cdawrap {
-        border: 1px solid #000;
-        --cda-bottom: auto;
-        --cda-right: 3.5rem;
-        --cda-left: auto;
-        --cda-text-align: right;
-        --cda-width: 370px;
-        border-radius: 6px;
-        padding: 0.75rem 1rem 1rem;
-        --footer-align: end;
-        --cda-text-size: 0.875rem;
-        --cda-footer-fontsize: 0.785rem;
-        --cda-text-color: #000;
-        position: absolute;
-        transform: translateY(-150%);
-    }
-
-    @media screen and (max-width: 800px) {
-        body #cdawrap {
-            transform: none;
-            border-radius: 0px;
-        }
-    }
-</style>
+<!--  -->
 
 <body>
     <header>
@@ -60,40 +36,12 @@
                 <button class="button-xlarge pure-button" onclick="myFunction()">G E N E R A T E</button>
 					<!-- <button class="button button--pandora"><span>Generate</span></button> -->
             </div>
-   
-                
+
         </section>
-
-        <aside>
-            
+        <aside>        
         </aside>
-
-        
-    </div>
-    <div class="octagon">
-    
-        <div class="row-one">
-            <div class="block-one"></div>
-            <div class="block-two"></div>
-            <div class="block-three"></div>
-        </div>
-    
-        <div class="row-two">
-            <div class="block-one"></div>
-            <div class="block-two"></div>
-            <div class="block-three"></div>
-        </div>
-    
-        <div class="row-three">
-            <div class="block-one"></div>
-            <div class="block-two"></div>
-            <div class="block-three"></div>
-        </div>
-    
-    </div>
     <footer>
         <p>We hope this track name generator will give you good names for your music</p>
     </footer>
 </body>
-
 </html>
