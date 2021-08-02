@@ -6,6 +6,13 @@
     <meta name="author" content="cahetel" <title>My First Generator</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br> We are happy that you've chosen our website to learn programming languages. We're sure you'll become one of the best programmers in your country. Good luck to you!";
+    }
+</script>
+
 <style>
     body #cdawrap {
         border: 1px solid #000;
@@ -36,23 +43,24 @@
     <header>
         <h1>Song Title Generator</h1>
     </header>
-
-   
-
+<!-- 
+<button onclick="window.print()">Print this page</button> -->
+<p id="demo"></p>
     
-<div class="result-container">
+<!-- <div class="result-container">
     <span id="result"></span>
     <button class="btn" id="clipboard">
         <i class="far fa-clipboard"></i>
     </button>
-</div>
+</div> -->
 
     <div class="container">
         <section>
             <div class="content__item">
-                <button class="button-xlarge pure-button">G E N E R A T E</button>
+                <button class="button-xlarge pure-button" onclick="myFunction()">G E N E R A T E</button>
 					<!-- <button class="button button--pandora"><span>Generate</span></button> -->
             </div>
+   
                 
         </section>
 
