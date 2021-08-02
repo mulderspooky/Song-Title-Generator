@@ -1,0 +1,121 @@
+body {
+    background-color: #CDE780;
+    font-family: "CenturyGothic",Centuryothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    margin: 0;
+    
+}
+
+
+
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: calc(30%-200px);
+}
+
+.result-container #result {
+  	word-wrap: break-word;
+	max-width: calc(30% - 60px);
+}
+
+.result-container .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
+}
+/* 
+.btn {
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 8px 12px;
+	background-color: #3B3B98;
+}
+
+.button--pandora {
+	background: #000;
+	font-weight: 700;
+	padding: 0;
+	border-radius: 5px;
+  position: absolute;
+  right: 500px;
+  width: 300px;
+
+}
+
+.button--pandora span {
+	display: block;
+	background: #a7a7a7;
+	padding: 1.5rem 2rem;
+	border: 1px solid #000;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.button--pandora:hover span {
+	transform: translate3d(-8px, -8px, 0);
+} */
+
+.button-xlarge {
+	background: #a7a7a7;
+            font-size: 125%;
+			color: #fff;
+			cursor: pointer;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(35, 255, 83, 0.2);
+			padding: 8px 12px;
+			display: block;
+			transform: translate3d(-4px, -4px, 0);
+			transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+			right: 500px;
+			position: absolute;
+        }
+
+
+header {
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+    color: rgb(12, 8, 8)
+}
+
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: #7286A0;
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+}
